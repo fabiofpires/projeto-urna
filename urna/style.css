@@ -160,8 +160,17 @@ body{
     font-size: 12px;
 }
 
-.aviso--grande{
+.aviso--grande{ /* Formatando a parte de VOTO NULO */
     margin-top: 30px;
     font-size: 40px;
     font-weight: bold;
+}
+
+.aviso--gigante{
+    font-size: 70px;
+    font-weight: bold;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
